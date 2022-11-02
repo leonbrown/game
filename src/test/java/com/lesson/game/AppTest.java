@@ -110,6 +110,11 @@ public class AppTest
 	void test() {
 		assertTrue(true);
 	}
+	
+	@Test
+	void testFalse() {
+		assertFalse(false);
+	}
 /*
    private Wizard wizard = new Wizard("Mr Wizard");
    
