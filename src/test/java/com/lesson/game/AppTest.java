@@ -105,6 +105,11 @@ public class AppTest
 		System.out.println( newWizard.getClass().getSimpleName().split("$")[0] );
 		
 	}
+	
+	@Test
+	void test() {
+		assertTrue(true);
+	}
 /*
    private Wizard wizard = new Wizard("Mr Wizard");
    
